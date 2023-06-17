@@ -3,7 +3,7 @@ function viajar (destino){
         console.log("gire a la izquierda");
     } else if (destino==="Argentina"){
         console.log("gire a la derecha");
-    } else(     
+    } else     
         console.log ("nos perdimos") ///en caso que se ingrese otro pais 
 }
 
