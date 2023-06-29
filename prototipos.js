@@ -16,17 +16,18 @@ var nuevoArreglo = arreglo.mayoresQueTres();
 
 console.log(nuevoArreglo);
 
-///ejemplo 
+///2do ejemplo 
 class latinoamerica {
     constructor(){ 
         this.paises = []
     }
 }/// mediante el prototipo de esta clase agregaremos el nombre de un pais
 
-latinoamerica.prototype.agregarPais = function(pais){
-    this.paises.push(pais)
+latinoamerica.prototype.agregarPais = function(pais){ //agregarPais es el METODO / pais es el PARAMETRO
+    this.paises.push(pais) // paises es la PROPIEDAD
 }
 
 var continente = new latinoamerica();
-continente.agregarPais("Argentina")
+continente.agregarPais("Argentina") // argentina es el parametro
 console.log(continente.paises)
+

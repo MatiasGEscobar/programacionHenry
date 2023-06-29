@@ -1,5 +1,5 @@
 //funcion constructora
-function Auto (puertas, color, marca, año, ruedas){// estos datos son recibidos como parametros
+function Auto(puertas, color, marca, año, ruedas){// estos datos son recibidos como parametros
     this.puertas = puertas;
     this.color = color;
     this.marca = marca;
